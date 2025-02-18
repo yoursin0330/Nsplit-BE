@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: nsplit
+  profile:
+    includes: oauth
+  data:
+    mongodb:
+      uri: ${MONGODB_URI}
